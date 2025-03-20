@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blockchain Project
 
 This project is a basic implementation of a blockchain using Python and Flask. It serves as an educational tool to illustrate how blockchain technology works, including the concepts of nodes, transactions, and a peer-to-peer (P2P) network.
@@ -67,3 +68,6 @@ Feel free to submit issues or pull requests for improvements or additional featu
 ## License
 
 This project is licensed under the MIT License.
+=======
+# demobch
+>>>>>>> 5c6c05da204e53fee4d69913fc3075e6f240937e
