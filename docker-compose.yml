@@ -1,0 +1,10 @@
+services:
+  ka-expense:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - APP_PASSWORD_PEPPER=${APP_PASSWORD_PEPPER:-ka-expense-pepper}
+    volumes:
+      - ./data:/app/data
