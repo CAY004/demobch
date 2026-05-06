@@ -30,3 +30,10 @@ Không thể clone repo đích trong môi trường hiện tại do lỗi mạng
 ## Ghi chú bảo mật
 - Không commit API key vào repo.
 - Nếu key đã lộ, revoke và tạo key mới.
+
+## Script tự động đổi môi trường
+Bạn có thể chạy script:
+```bash
+./switch_environment.sh https://github.com/CAY004/totnghiep.git /workspace/totnghiep
+```
+Nếu mạng cho phép, script sẽ clone repo đích và bạn có thể làm việc trực tiếp trong thư mục mới.
