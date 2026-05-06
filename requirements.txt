@@ -3,3 +3,7 @@ Flask-SocketIO
 requests
 jsonpickle
 numpy
+streamlit
+pandas
+plotly
+openai
